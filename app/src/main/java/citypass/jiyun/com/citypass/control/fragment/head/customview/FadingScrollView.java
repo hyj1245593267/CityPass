@@ -16,7 +16,6 @@ import android.widget.ScrollView;
  */
 
 public class FadingScrollView extends ScrollView {
-
     private static String TAG = "-----------FadingScrollView----------";
     //渐变view
     private View fadingView;
