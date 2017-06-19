@@ -6,9 +6,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
+            <include
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                layout="@layout/head_hide_msg"
+                />
+            <TextView
+                android:text="垃圾"
+                android:textSize="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </LinearLayout>
 
     </citypass.jiyun.com.citypass.control.fragment.head.customview.FadingScrollView>
